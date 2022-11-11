@@ -1,0 +1,36 @@
+.channelRow{
+    
+    display: flex;
+    align-items: center;
+    width:70%;
+  
+}
+.channelRow_text{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.channelRow_text{
+ 
+    color:#606060;
+    font-size: small !important;
+    
+}
+
+.channelRow > .MuiAvatar-root {
+    height:120px;
+    width: 120px;
+    margin:20px 60px;
+    
+
+
+}
+.channelRow_text > h4 {
+    color: black;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

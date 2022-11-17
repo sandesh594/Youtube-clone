@@ -62,7 +62,7 @@ function Header() {
       <VideoCallIcon />
         <AppsIcon />
         <NotificationsIcon />
-        <Avatar src='https://images.moneycontrol.com/static-mcnews/2022/03/MAYANK-AGARWAL-PUNJAB-KINGS-2022.jpg?impolicy=website&width=770&height=431'/>
+        <Avatar src='https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg'/>
  
 
       </div>

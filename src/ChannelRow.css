@@ -4,6 +4,7 @@
     align-items: center;
     width:70%;
   
+  
 }
 .channelRow_text{
     
@@ -27,6 +28,7 @@
 
 }
 .channelRow_text > h4 {
+   
     color: black;
   
     display: flex;

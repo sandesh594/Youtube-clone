@@ -5,6 +5,7 @@ import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutli
 
 function ChannelRow({image,channel,subs,noofvideos,discription,verified}) {
   return (
+
     <div className='channelRow'>
       
 
@@ -13,6 +14,7 @@ function ChannelRow({image,channel,subs,noofvideos,discription,verified}) {
       
         
         <div className='channelRow_text'>
+          
             <h4>{channel} {verified && <CheckCircleOutlineOutlinedIcon /> }</h4>
             <p>
               {subs} subscribers . {noofvideos} videos

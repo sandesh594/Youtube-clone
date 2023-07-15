@@ -7,7 +7,9 @@ import VideoRow from './VideoRow';
 function SearchPage() {
   return (
     <div className='searchPage'>
+
         <div className='searchPage_filter'>
+          
             <TuneOutlinedIcon />
             <h2>FILTER</h2>
             

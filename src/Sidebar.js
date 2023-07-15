@@ -13,6 +13,8 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 
 
 function Sidebar() {
+
+  
   return (
     <div className='sidebar'>
 

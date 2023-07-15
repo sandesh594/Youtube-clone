@@ -2,6 +2,7 @@
 
     width:270px;
     margin-bottom:40px;
+   
 
 
 }
@@ -13,11 +14,13 @@
    
     display: flex;
     padding-right: 30px;
+   
 
 }
 .videoCard_text{
 
     margin-left: 15px;
+    
 
 }
 .videoCard_text > h4 {

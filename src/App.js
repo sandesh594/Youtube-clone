@@ -6,14 +6,20 @@ import Header from './Header'
 import RecommendedVideos from './RecommendedVideos'
 import SearchPage from './SearchPage'
 import Sidebar from './Sidebar'
+import Profile from './Profile'
+import { AbcOutlined } from '@mui/icons-material'
+import About from './About'
 
 function App() {
   return (
 
+    
+
     <div className='app'>
+
       <Header />
 
-    <Routes>
+       <Routes>
    
         <Route path='/search/:searchTerm' element={<>
         <div className='app_page'>
@@ -30,7 +36,10 @@ function App() {
         <Route path='/' element={ 
 
           <> 
-          <div className='app_page'><Sidebar />  <RecommendedVideos /> </div>
+          <div className='app_page'>
+          <Sidebar /> 
+          <RecommendedVideos />
+          </div>
             
             </>
      
@@ -38,7 +47,10 @@ function App() {
         } />
 
   </Routes>
+
 </div>
+
+
   )
 }
 

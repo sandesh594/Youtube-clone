@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
 
-  const[inputSearch,setInputSearch]=useState('')
+  const  [inputSearch,setInputSearch]=useState('');
 
   const change=(e)=>{
 
@@ -19,10 +19,6 @@ function Header() {
   }
 
   
-
-
-
-
   return (
     <div className='header'>
       <div className='header_left'>
@@ -41,14 +37,17 @@ function Header() {
       </div>
 
       <div className='header_input'>
-        <input value={inputSearch} placeholder='Search' type={'text'} onChange={change} />
+
+        <input value={inputSearch} 
+        placeholder='Search' type={'text'} onChange={change} />
         
         
       
         
         
         <Link className='headerlink_icon' to={`/search/${inputSearch}`}>
-          <SearchIcon />
+
+        <SearchIcon />
         
 
         </Link>
@@ -57,9 +56,11 @@ function Header() {
 
       </div>
 
+      
+
       <div className='header_icons'>
         
-      <VideoCallIcon />
+        <VideoCallIcon />
         <AppsIcon />
         <NotificationsIcon />
         <Avatar src='https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg'/>

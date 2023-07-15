@@ -42,10 +42,9 @@
     
 }
 .header_input > input {
-    flex: 1;
-    border: none;
-   
-  
+  flex: 1;
+  border: none;
+
 }
 
 .header_icons > .MuiSvgIcon-root {
